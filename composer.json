@@ -1,4 +1,19 @@
 {
+  "name": "akamya/stats",
+  "description": "Librairie statistique",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Akamya\\Stats\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Akamya",
+      "email": "elodie.langlet@gmail.com"
+    }
+  ],
   "require-dev": {
     "pestphp/pest": "^2.35"
   },
@@ -9,10 +24,5 @@
   },
   "scripts": {
     "test": "vendor/bin/pest"
-  },
-  "autoload": {
-    "psr-4": {
-      "Akamya\\Stats\\": "src/"
-    }
   }
 }
