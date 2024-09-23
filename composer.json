@@ -1,0 +1,18 @@
+{
+  "require-dev": {
+    "pestphp/pest": "^2.35"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akamya\\Stats\\": "src/"
+    }
+  }
+}
